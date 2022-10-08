@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head lang="fr" dir="ltr">
+        
+        <meta charset="utf-8"/>
+        <meta name="description" content="this web site is the best"/>
+        <meta name="author" content="manar">
+        <title>
+        formulaire
+        </title>
+        
+    </head>
+    <body bgcolor="#4EA9A0">
+        <title>formulaire</title>
+        <h1>formulaire d'inscription</h1>
+        <form method="post" action="#">
+            <fieldset>
+                <legend>formulaire d'inscription</legend>
+            <table width="50%">
+                <tr>
+                <th><label for="civil"> Civilité</label></th>
+                <td  id="civil">
+                <INPUT TYPE="radio" name="civilite"  value="m" checked="checked">monsieur
+                <INPUT TYPE="radio" name="civilite"   value="mme" >madame
+                <INPUT TYPE="radio" name="civilite"   value="mlle">mademoiselle</td>
+                </tr>
+                        <tr>
+                            <th>N°Appogée</th>
+                            <td>
+                                <input type="number" name="numapp"  size="100">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Nom</th>
+                            <td>
+                                <input type="text" name="nom" size="100">
+                            </td>
+                        </tr>
+                        <tr>
+                        <th>prenom</th>
+                        <td>
+                            <input type="text" name="pnom" size="100">
+                        </td>
+                    </tr>
+                    <tr>
+                    <th>date de naissance</th>
+                        <td>
+                            <input type="date" name="date">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>adress mail</th>
+                            <td>
+                                <input type="mail" name="mail" size="100">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>adress postale</th>
+                                <td>
+                                    <input type="text" name="postale" size="100" placeholder="rue N°1">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>ville</th>
+                                    <td>
+                                        <select name="kenitra"  size="1">
+                                            <option value="kenitra">kenitra</option>
+                                            <option value="rabat">rabat</option>
+                                            <option value="salé">salé</option></select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>code postale</th>
+                                        <td>
+                                            <input type="text" name="code" placeholder="14">
+                                            <input type="text" name="code"  placeholder="000">
+                                        </td>
+                                    </tr>
+                                 <tr>
+                                        <th>photo</th>
+                                            <td>
+                                                <input type="file" name="photo">
+                                            </td>
+                                </tr>
+                                <tr>
+                                    <th><label for="langage">Langages</label></th>
+                                    <td id="langage">
+                                    <INPUT TYPE="checkbox" name="langage" value="C" checked="checked"> C
+                                    <INPUT TYPE="checkbox" name="langage" value="PYTHON" checked="checked"> PYTHON
+                                    <INPUT TYPE="checkbox" name="langage" value="JAVA">JAVA</td> 
+                                    </tr>
+                                    <tr>
+                                        <th>systeme d'exploitation</th>
+                                            <td>
+                                                <select name="systeme"  size="3" multiple="multiple">
+                                                    <option value="windows 2012 server">windows 2012 server</option>
+                                                    <option value="linux">linux centos</option>
+                                                    <option value="hp">HP-UX</option></select>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>Niveau en html</th>
+                                                <td>
+                                                    <input type="range">
+                                                </td>
+                                            </tr>
+                                           
+                                           
+                                         <tr>
+                                            <td>
+                                                <input type="submit" formaction="#" formmethod="get" value="Prévisualiser">
+                                             </td>
+                                            <td><input type="reset" value="effacer"> 
+                                             <input type="submit" value="soumettre formulaire">
+                                             </td>
+                                         </tr></table>
+
+
+                                         
+                                            
+                                            
+            </fieldset>
+        </form>
+    </body>

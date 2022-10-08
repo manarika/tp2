@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head lang="fr" dir="ltr">
+        
+        <meta charset="utf-8"/>
+        <meta name="description" content="this web site is the best"/>
+        <meta name="author" content="manar">
+        <title>
+      reservation
+        </title>
+        
+    </head>
+    <body bgcolor="#EACFB8">
+        <form methode="get" action="#" oninput="resultat.value=(a.value)*99-(-((b.value)-1)*10)">
+            <label for="nom"> Nom complet: </label>
+    <input type="text" name="nom" id="nom" size="50" placeholder="le prenom suivi du nom" required="required" ></br>
+            <label for="mail"> adresse mail:</label>
+    <input type="mail" name="mail" id="mail" size="50"  required="required"></br>
+            <label for="date"> Date d'arrivée: </label>
+    <input type="date" name="date"  id="date" required="required"></br>
+    <label for="time">Heure d'arrivée: </label>
+    <input type="time" name="time"  id="time" required="required"></br>
+
+
+        Nombre de nuitées(99$ par nuit):</br>
+    <input type="number" name="a" value="1" ></br>
+    Nombre d'invitées (10$ par invité supplementaire) :</br>
+    <input type="number" name="b" value="1" ></br>
+    totale:
+    <output  name="resultat">99</output>.00 $
+
+
+    <label for="code"> code de promotion:</label>
+    <input type="text" id="code" name="code" required size="40" pattern="[a-zA-Z0-9]{6}" title="Le code de promotion est composé de 6 caractères"/>
+    <input type="submit" value="sand">
+    </form>
+        
+
+    </body>
